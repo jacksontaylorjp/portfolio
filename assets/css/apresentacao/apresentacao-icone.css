@@ -1,0 +1,24 @@
+.apresentacao__icone {
+    background-position: center;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;/*preencher todo o fundo com a imagem*/
+    height: 3rem;
+    width: 3rem;
+}
+
+.apresentacao__icone.apresentacao__icone--github {
+    background-image: url(../../img/github.png);
+}
+
+.apresentacao__icone.apresentacao__icone--linkedin {
+    background-image: url(../../img/linkedin.png);
+}
+
+.apresentacao__icone.apresentacao__icone--instagram {
+    background-image: url(../../img/instagram.png);
+}
+
+.apresentacao__icone.apresentacao__icone--curriculo {
+    background-image: url(../../img/curriculo.png);
+}
