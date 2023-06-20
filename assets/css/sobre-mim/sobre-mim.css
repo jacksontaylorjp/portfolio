@@ -1,0 +1,6 @@
+.sobre-mim {
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 7rem;
+}
