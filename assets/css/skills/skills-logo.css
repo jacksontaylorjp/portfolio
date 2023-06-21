@@ -1,4 +1,25 @@
 .skills__logo {
-    height: 5rem;
-    width: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 65px;
+    width: 50px;
+}
+
+.skills__logo--css {
+    background-image: url(../../img/css-3.png);
+}
+
+.skills__logo--html {
+    background-image: url(../../img/formato-html.png);
+}
+
+.skills__logo--javascript {
+    background-image: url(../../img/javascript.png);
+}
+
+.skills__logo--python {
+    background-image: url(../../img/python.png);
 }
