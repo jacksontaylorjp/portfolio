@@ -1,3 +1,25 @@
 .hobbies__logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 65px;
+    width: 50px;
+}
 
+.hobbies__logo--assistir-serie {
+    background-image: url(../../img/series.png);    
+}
+
+.hobbies__logo--correr {
+    background-image: url(../../img/corrida.png);
+}
+
+.hobbies__logo--musculacao {
+    background-image: url(../../img/levantamento-de-peso.png);
+}
+
+.hobbies__logo--ouvir-musica {
+    background-image: url(../../img/musica.png);
 }
