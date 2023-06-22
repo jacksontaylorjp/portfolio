@@ -1,0 +1,6 @@
+.experiencia__imagem {
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 2px 2px 2px #464646;
+    height: 400px;
+    width: 700px;
+}

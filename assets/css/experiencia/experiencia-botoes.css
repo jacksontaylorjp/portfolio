@@ -1,0 +1,4 @@
+.experiencia__botoes {
+    display: flex;
+    justify-content: space-between;
+}

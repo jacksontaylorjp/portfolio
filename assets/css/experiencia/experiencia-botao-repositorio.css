@@ -1,0 +1,15 @@
+.experiencia__botao--repositorio {
+    background: #edededed;
+    border: 1px solid #2a7ae4;
+    color: #2a7ae4;
+    font-family: Raleway, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.7rem 0.5rem;
+}
+
+.experiencia__botao--repositorio:hover {
+    background: #2a7ae4;
+    color: #ffffff;
+    cursor: pointer;
+}

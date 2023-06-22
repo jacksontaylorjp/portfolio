@@ -1,0 +1,16 @@
+.experiencia__botao--verDemo {
+    background: #2a7ae4;
+    border: none;
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.7rem 0.5rem;
+}
+
+.experiencia__botao--verDemo:hover {
+    background: #ededed;
+    border: 1px solid #2a7ae4;
+    color: #2a7ae4;
+    cursor: pointer;
+}
