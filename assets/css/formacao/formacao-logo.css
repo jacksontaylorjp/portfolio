@@ -1,0 +1,19 @@
+.formacao__logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.formacao__logo--engenhariaEletrica {
+    background-image: url(../../img/logo-nassau.png);
+}
+
+.formacao__logo--cienciaDeDados {
+    background-image: url(../../img/logo-descomplica.png);
+}
+
+.formacao__logo--posCienciaDeDados {
+    background-image: url(../../img/logo-descomplica.png);
+}
