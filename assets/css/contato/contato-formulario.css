@@ -1,0 +1,4 @@
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+}

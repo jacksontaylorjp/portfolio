@@ -56,6 +56,16 @@
     <link rel="stylesheet" href="./assets/css/experiencia/experiencia-container.css">
     <link rel="stylesheet" href="./assets/css/experiencia/experiencia-botoes.css">
     <link rel="stylesheet" href="./assets/css/rodape.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-assunto.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-descricao.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-email.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-formulario.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-imagem.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-mensagem.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-nome.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-titulo.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-botao.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -178,15 +188,30 @@
                 <h2 class="experiencia__divBotoes--titulo">Decodificador de texto</h2>
                 <h3 class="experiencia__divBotoes--subtitulo">Challenge Oracle ONE Alura</h3>
                 <div class="experiencia__botoes">
-                    <button class="experiencia__botao--repositorio">Repositório</button>
-                    <button class="experiencia__botao--verDemo">Ver demo</button>
+                    <a href="https://github.com/jacksontaylorjp/Encriptador_de_texto_challengeOne"><button class="experiencia__botao--repositorio">Repositório</button></a>
+                    <a href="https://jacksontaylorjp.github.io/Encriptador_de_texto_challengeOne/"><button class="experiencia__botao--verDemo">Ver demo</button></a>
                 </div>
             </div>
         </div>  
     </section>
+    <section class="contato">
+        <div class="contato__imagem"></div>
+        <form action="" class="contato__formulario">
+            <h2 class="contato__titulo">Contato</h2>
+            <p class="contato__descricao">Quer entrar em contato comigo?<br>
+                Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+            <label for="" class="contato__label--nome">Nome</label>
+            <input type="text" class="contato__nome" placeholder="Nome">
+            <label for="" class="contato__label--email">E-mail</label>
+            <input type="email" class="contato__email" placeholder="E-mail">
+            <input type="text" class="contato__assunto" placeholder="Assunto">
+            <textarea name=""  cols="30" rows="10" class="contato__mensagem" placeholder="Mensagem"></textarea>
+            <button class="contato__botao">Enviar mensagem</button>
+        </form>
+    </section>
     <footer class="rodape">
-        <p class="rodape__descricao">Desenvolvido por Jackson Taylor</p>
-        <p class="rodape__ano">2023</p>
+        <span class="rodape__descricao">Desenvolvido por Jackson Taylor - </span>
+        <span class="rodape__ano">2023</span>
     </footer>
 </body>
 </html>

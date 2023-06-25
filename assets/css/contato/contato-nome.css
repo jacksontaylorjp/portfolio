@@ -1,0 +1,13 @@
+.contato__nome {
+    margin-bottom: 0.6rem;
+    padding-left: 0.4rem;
+    padding-top: 1rem;
+}
+
+.ccontato__label--nome {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    top: 100px;
+}

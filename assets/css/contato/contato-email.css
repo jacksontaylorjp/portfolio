@@ -1,0 +1,12 @@
+.contato__email {
+    margin-bottom: 0.6rem;
+    padding-left: 0.4rem;
+    padding-top: 1rem;
+}
+
+.contato__label--email {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+}

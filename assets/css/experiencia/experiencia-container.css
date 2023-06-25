@@ -1,5 +1,5 @@
 .experiencia__container {
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
