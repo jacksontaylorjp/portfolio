@@ -5,3 +5,17 @@
     justify-content: space-between;
     padding: 2rem 7rem;
 }
+
+@media screen and (max-width: 768px) {
+    .apresentacao {
+        padding: 2rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .apresentacao {
+        flex-direction: column;
+        align-items: start;
+        padding: 2rem 1rem;
+    }
+}

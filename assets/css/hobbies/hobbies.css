@@ -2,3 +2,9 @@
     background: #ededed;
     padding: 2rem 7rem;
 }
+
+@media screen and (max-width: 768px){
+    .hobbies {
+        padding: 2rem 1.5rem;
+    }
+}

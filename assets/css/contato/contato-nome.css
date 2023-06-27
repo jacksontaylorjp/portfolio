@@ -1,13 +1,17 @@
 .contato__nome {
-    margin-bottom: 0.6rem;
-    padding-left: 0.4rem;
-    padding-top: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    padding: 0.2rem 0 0.2rem 0.4rem;
 }
 
-.ccontato__label--nome {
+.contato__label--nome {
     color: #464646;
     font-family: Raleway, sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 700;
-    top: 100px;
+}
+
+.contato__nome:focus {
+    border: 2px #2a7ae4 solid;
+    outline: none;
 }

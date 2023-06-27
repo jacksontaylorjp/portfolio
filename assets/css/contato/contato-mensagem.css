@@ -1,5 +1,11 @@
 .contato__mensagem {
+    font-size: 1.2rem;
     margin-bottom: 0.6rem;
     padding-left: 0.4rem;
     padding-top: 0.6rem;
+}
+
+.contato__mensagem:focus {
+    border: 2px #2a7ae4 solid;
+    outline: none;
 }

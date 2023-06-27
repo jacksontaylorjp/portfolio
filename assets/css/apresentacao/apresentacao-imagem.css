@@ -4,3 +4,17 @@
     margin-left: 3rem;
     width: 250px;
 }
+
+@media screen and (max-width: 768px) {
+    .apresentacao__imagem {
+        height: 146px;
+        width: 146px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .apresentacao__imagem {
+        margin-left: 0;
+        order: 2;
+    }
+}

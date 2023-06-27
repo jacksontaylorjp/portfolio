@@ -2,7 +2,13 @@
     background-image: url(../../img/contato.jpg);
     background-position: center;
     background-size: cover;
-    height: 600px;
+    height: 572.47px;
     margin-right: 1rem;
-    width: 500px;
+    width: 800px;
+}
+
+@media screen and (max-width: 768px){
+    .contato__imagem {
+        display: none;
+    }
 }

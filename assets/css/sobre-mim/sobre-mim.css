@@ -4,3 +4,9 @@
     flex-direction: column;
     padding: 2rem 7rem;
 }
+
+@media screen and (max-width: 768px) {
+    .sobre-mim {
+        padding: 2rem 1.5rem;
+    }
+}

@@ -2,6 +2,12 @@
     align-items: center;
     background: #EAF2FD;
     display: flex;
+    justify-content: space-between;
     padding: 2rem 7rem;
-    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .contato {
+        padding: 2rem 1.5rem;
+    }
 }

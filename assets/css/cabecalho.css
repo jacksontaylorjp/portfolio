@@ -5,3 +5,15 @@
     justify-content: space-between;
     padding: 1rem 7rem;
 }
+
+@media screen and (max-width: 768px){
+    .cabecalho {
+        padding: 2rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .cabecalho {
+        padding: 2rem 1rem;
+    }
+}
