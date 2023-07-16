@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>Portfolio | Jackson Taylor</title>
+    <title>Portfólio | Jackson Taylor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap" rel="stylesheet">
@@ -91,7 +91,7 @@
             <h1 class="apresentacao__titulo">Olá, meu nome é Jackson Taylor</h1>
             <p class="apresentacao__descricao">Sou formado em Engenharia Elétrica, graduando em Ciência de Dados,
                 pós graduando em ciência de dados e atualmente estou realizando minha transição de carreira para a
-                área de tecnologia e também estou participando dcco projeto Oracle ONE na Alura.
+                área de tecnologia e também estou participando do projeto Oracle ONE na Alura.
             </p>
             <ul class="apresentacao__lista">
                 <li class="apresentacao__lista--item">
@@ -201,6 +201,19 @@
     <section class="experiencia" id="projetos">
         <h1 class="experiencia__titulo">Experiência Profissional</h1>
         <div class="experiencia__container">
+            <img src="./assets/img/portfolio.gif" alt="portfolio" class="experiencia__imagem">
+            <div class="experiencia__divBotoes">
+                <h2 class="experiencia__divBotoes--titulo">Portfólio</h2>
+                <h3 class="experiencia__divBotoes--subtitulo">Sobre mim e experiencias</h3>
+                <div class="experiencia__botoes">
+                    <a href="https://github.com/jacksontaylorjp/portfolio"
+                        target="_blank"><button class="experiencia__botao--repositorio">Repositório</button></a>
+                    <a href="https://jacksontaylorjp.github.io/portfolio/"
+                        target="_blank"><button class="experiencia__botao--verDemo">Ver demo</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="experiencia__container">
             <img src="./assets/img/projetoEncriptador.gif" alt="Decodificador" class="experiencia__imagem">
             <div class="experiencia__divBotoes">
                 <h2 class="experiencia__divBotoes--titulo">Decodificador de texto</h2>
@@ -239,11 +252,14 @@
                 <span class="mensagem-erro"></span>
             </fieldset>
             <fieldset class="no__formulario">
-                <textarea name="mensagem" cols="30" rows="10" class="contato__mensagem" placeholder="Mensagem"
+                <textarea name="mensagem"  rows="10" class="contato__mensagem" placeholder="Mensagem"
                     minlength="50" maxlength="300" required></textarea>
                 <span class="mensagem-erro"></span>
             </fieldset>
-            <button type="submit" class="contato__botao" >Enviar mensagem</button>
+            <fieldset class="no__formulario">
+                <button type="submit" name="btEnviar" class="contato__botao" disabled>Enviar mensagem</button>
+                <span class="mensagem-erro"></span>
+            </fieldset>
         </form>
     </section>
     <footer class="rodape">

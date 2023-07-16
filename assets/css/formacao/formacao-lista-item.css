@@ -10,9 +10,7 @@
 }
 
 .formacao__lista--item:hover {
-    border-color: #2a7ae4;
-    border-style: solid;
-    border-width: 2px;
+    box-shadow: 0.5px 0.5px 20px #2a7ae4;
 }
 
 @media screen and (max-width: 480px){

@@ -1,5 +1,8 @@
 .experiencia {
     background: #ededed;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     padding: 2rem 7rem;
 }
 
