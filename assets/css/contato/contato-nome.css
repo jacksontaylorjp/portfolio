@@ -1,7 +1,14 @@
 .contato__nome {
+    border: none;
+    box-shadow: 0.5px 0.5px 3px #464646;
     font-size: 1.2rem;
-    margin-bottom: 1.2rem;
+    font-family: Raleway, sans-serif;
+    height: 2rem;
     padding: 0.2rem 0 0.2rem 0.4rem;
+}
+
+.contato__nome::placeholder {
+    font-family: Raleway, sans-serif;
 }
 
 .contato__label--nome {
@@ -12,6 +19,7 @@
 }
 
 .contato__nome:focus {
-    border: 2px #2a7ae4 solid;
+    border: none;
+    border-bottom: 2px #2a7ae4 solid;
     outline: none;
 }

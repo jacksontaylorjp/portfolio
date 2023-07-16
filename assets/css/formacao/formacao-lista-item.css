@@ -9,6 +9,12 @@
     width: 200px;
 }
 
+.formacao__lista--item:hover {
+    border-color: #2a7ae4;
+    border-style: solid;
+    border-width: 2px;
+}
+
 @media screen and (max-width: 480px){
     .formacao__lista--item {
         border-radius: 15%;

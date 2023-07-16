@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
@@ -67,7 +68,10 @@
     <link rel="stylesheet" href="./assets/css/contato/contato-titulo.css">
     <link rel="stylesheet" href="./assets/css/contato/contato.css">
     <link rel="stylesheet" href="./assets/css/contato/contato-botao.css">
+    <link rel="stylesheet" href="./assets/css/contato/no-formulario.css">
+    <link rel="stylesheet" href="./assets/css/mesagem-erro.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <a href="index.html" class="logo">{Portfolio}</Jackson></a>
@@ -85,8 +89,9 @@
     <section class="apresentacao">
         <div class="apresentacao__textual">
             <h1 class="apresentacao__titulo">Olá, meu nome é Jackson Taylor</h1>
-            <p class="apresentacao__descricao">Sou formado em Engenharia Elétrica, graduando em Ciência de Dados
-                e atualmente estou participando no projeto Oracle ONE na Alura.
+            <p class="apresentacao__descricao">Sou formado em Engenharia Elétrica, graduando em Ciência de Dados,
+                pós graduando em ciência de dados e atualmente estou realizando minha transição de carreira para a
+                área de tecnologia e também estou participando dcco projeto Oracle ONE na Alura.
             </p>
             <ul class="apresentacao__lista">
                 <li class="apresentacao__lista--item">
@@ -95,7 +100,8 @@
                     </a>
                 </li>
                 <li class="apresentacao__lista--item">
-                    <a href="https://www.linkedin.com/in/jackson-taylor-165a1a111/" class="apresentacao__link" target="_blank">
+                    <a href="https://www.linkedin.com/in/jackson-taylor-165a1a111/" class="apresentacao__link"
+                        target="_blank">
                         <div class="apresentacao__icone apresentacao__icone--linkedin"></div>
                     </a>
                 </li>
@@ -105,7 +111,8 @@
                     </a>
                 </li>
                 <li class="apresentacao__lista--item">
-                    <a href="#" class="apresentacao__link" target="_blank">
+                    <a href="https://docs.google.com/document/d/1BOF7MgT7XWgO7SUEtVQ1lqXZMP-NPuFsQNof10SBKE0/edit?usp=sharing"
+                        class="apresentacao__link" target="_blank">
                         <div class="apresentacao__icone apresentacao__icone--curriculo"></div>
                     </a>
                 </li>
@@ -116,8 +123,18 @@
     <section class="sobre-mim" id="sobreMin">
         <h2 class="sobre-mim__titulo">Sobre mim</h2>
         <p class="sobre-mim__descricao">
-            Sou formado em Engenharia Elétrica, graduando em Ciência de Dados
-            e atualmente estou participando no projeto Oracle ONE na Alura.</p>
+            Meu nome é Jackson Taylor, tenho 30 anos e moro em João Pessoa/PB. Desde jovem sempre tive interesse em
+            entender como os hardwares e softwares funcionam. Devido a
+            essa disposição me formei em engenharia elétrica, nessa área ainda tive o prazer de estagiar em uma empresa
+            de projetos elétricos. Durante a graduação tive contato com
+            algumas linguagens de programação. Desse modo, aumentou de forma considerável o desejo de aprofundar-me no
+            mundo das linguagens. Vale destacar que o meu
+            trabalho de conclusão de curso não poderia ser em uma linha de pesquisa diferente. Logo, juntei hardware com
+            software, foi desenvolvido um protótipo com
+            microcontroladores e um aplicativo para mobile. Atualmente, estou em processo contínuo de aprendizagem.
+            Nesse sentido, estou cursando ciência de dados e participando
+            do projeto Oracle ONE Alura.
+        </p>
     </section>
     <section class="skills" id="skills">
         <h2 class="skills__titulo">Skills</h2>
@@ -184,36 +201,56 @@
     <section class="experiencia" id="projetos">
         <h1 class="experiencia__titulo">Experiência Profissional</h1>
         <div class="experiencia__container">
-            <img src="./assets/img/projetoEncriptador.gif" alt="Decodificador" class="experiencia__imagem"> 
+            <img src="./assets/img/projetoEncriptador.gif" alt="Decodificador" class="experiencia__imagem">
             <div class="experiencia__divBotoes">
                 <h2 class="experiencia__divBotoes--titulo">Decodificador de texto</h2>
                 <h3 class="experiencia__divBotoes--subtitulo">Challenge Oracle ONE Alura</h3>
                 <div class="experiencia__botoes">
-                    <a href="https://github.com/jacksontaylorjp/Encriptador_de_texto_challengeOne" target="_blank"><button class="experiencia__botao--repositorio">Repositório</button></a>
-                    <a href="https://jacksontaylorjp.github.io/Encriptador_de_texto_challengeOne/" target="_blank"><button class="experiencia__botao--verDemo">Ver demo</button></a>
+                    <a href="https://github.com/jacksontaylorjp/Encriptador_de_texto_challengeOne"
+                        target="_blank"><button class="experiencia__botao--repositorio">Repositório</button></a>
+                    <a href="https://jacksontaylorjp.github.io/Encriptador_de_texto_challengeOne/"
+                        target="_blank"><button class="experiencia__botao--verDemo">Ver demo</button></a>
                 </div>
             </div>
-        </div>  
+        </div>
     </section>
     <section class="contato" id="contato">
         <div class="contato__imagem"></div>
-        <form action="" class="contato__formulario">
+        <form action="" class="contato__formulario" data-formulario>
             <h2 class="contato__titulo">Contato</h2>
             <p class="contato__descricao">Quer entrar em contato comigo?<br>
                 Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-            <label for="" class="contato__label--nome">Nome</label>
-            <input type="text" class="contato__nome" placeholder="Nome">
-            <label for="" class="contato__label--email">E-mail</label>
-            <input type="email" class="contato__email" placeholder="E-mail">
-            <label for="" class="contato__label--assunto">Assunto</label>
-            <input type="text" class="contato__assunto" placeholder="Assunto">
-            <textarea name=""  cols="30" rows="10" class="contato__mensagem" placeholder="Mensagem"></textarea>
-            <button class="contato__botao">Enviar mensagem</button>
+            <fieldset class="no__formulario">
+                <label for="nome" class="contato__label--nome">Nome</label>
+                <input type="text" name="nome" id="nome" class="contato__nome" placeholder="Nome" minlength="3"  maxlength="50"
+                    required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+            <fieldset class="no__formulario">
+                <label for="email" class="contato__label--email">E-mail</label>
+                <input type="email" name="email" id="email" class="contato__email" placeholder="E-mail" minlength="4"
+                    required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+            <fieldset class="no__formulario">
+                <label for="assunto" class="contato__label--assunto">Assunto</label>
+                <input type="text" name="assunto" id="assunto" class="contato__assunto" placeholder="Assunto"
+                    minlength="5" maxlength="50" required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+            <fieldset class="no__formulario">
+                <textarea name="mensagem" cols="30" rows="10" class="contato__mensagem" placeholder="Mensagem"
+                    minlength="50" maxlength="300" required></textarea>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+            <button type="submit" class="contato__botao" >Enviar mensagem</button>
         </form>
     </section>
     <footer class="rodape">
-        <span class="rodape__descricao">Desenvolvido por Jackson Taylor - </span>
+        <span class="rodape__descricao">Desenvolvido por Jackson Taylor</span>
         <span class="rodape__ano">2023</span>
     </footer>
+    <script src="./index.js"></script>
 </body>
+
 </html>

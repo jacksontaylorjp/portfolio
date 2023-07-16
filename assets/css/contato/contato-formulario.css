@@ -1,6 +1,7 @@
 .contato__formulario {
     display: flex;
     flex-direction: column;
+    gap: 5px;
     width: 100%;
 }
 
